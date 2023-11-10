@@ -13,12 +13,12 @@ class Client
     /**
      * @var array
      */
-    protected array $batch = [];
+    protected $batch = [];
 
     /**
      * @var bool
      */
-    protected bool $isBatch = false;
+    protected $isBatch = false;
 
     /**
      * @var \Illuminate\Http\Client\Factory
